@@ -2,7 +2,7 @@ Name: hunspell-et
 Summary: Estonian hunspell dictionaries
 %define upstreamid 20030606
 Version: 0.%{upstreamid}
-Release: 11%{?dist}
+Release: 10%{?dist}
 Source: http://www.meso.ee/~jjpp/speller/ispell-et_%{upstreamid}.tar.gz
 Group: Applications/Text
 URL: http://www.meso.ee/~jjpp/speller/
@@ -52,9 +52,6 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.20030606-11
-- Mass rebuild 2013-12-27
-
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.20030606-10
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
